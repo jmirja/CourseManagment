@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CourseManagment</string>
+    <string name="enter_your_id">Enter your ID</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="type">Type</string>
+    <string name="add_courses">Add Courses</string>
+    <string name="remove">Remove</string>
+    <string name="registered_course">Registered Course</string>
+    <string name="course_name">Course Name</string>
+    <string name="enter_department">Enter Department</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="email">Email</string>
+    <string name="contact_number">Contact number</string>
+    <string name="save">Save</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="database">Database</string>
+    <string name="algorithm">Algorithm</string>
+    <string name="python">Python</string>
+    <string name="java">Java</string>
+    <string name="mirza_adnan_hossain">Mirza Adnan Hossain</string>
+    <string name="show_student">Show Student</string>
+    <string name="teacher_name">Teacher name</string>
+    <string name="department_name">Department name</string>
+    <string name="student_list">Student List</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="student_name">Student name</string>
+    <string name="course_managment_system">Course Managment System</string>
+
+    //registration page
+    <string-array name="type">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+</resources>

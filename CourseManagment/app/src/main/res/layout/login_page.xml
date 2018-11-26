@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_layout"
+    android:padding="5dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/nameEt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:hint="@string/enter_your_name"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passworLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameLayout"
+        android:layout_marginTop="25dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordEt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_below="@id/passworLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"
+        android:hint="Login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/regiBtn"
+        android:layout_width="250dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20sp"
+        android:layout_below="@id/loginBtn"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:hint="Registration"
+        android:inputType="textPassword" />
+
+
+
+</RelativeLayout>

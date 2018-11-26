@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_layout">
+    <EditText
+        android:id="@+id/userNameEt"
+        android:hint="@string/enter_your_name"
+        android:textColor="#f9f6f6"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="250dp"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioGroup
+            android:id="@+id/userType"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/studentRb"
+                android:text="@string/student"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/teacherRb"
+                android:text="@string/teacher"
+                android:textSize="20sp"
+                android:layout_marginStart="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/departmentEt"
+        android:hint="@string/enter_department"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/passEt"
+        android:hint="@string/enter_your_password"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/contactEt"
+        android:hint="@string/contact_number"
+        android:textColor="#ffffff"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/emailEt"
+        android:hint="@string/email"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/saveBt"
+        android:text="@string/save"
+        android:onClick="saveBtn"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
